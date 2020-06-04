@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Quicksand&display=swap');
+
+body {
+    padding: 0;
+    margin: 0
+}
+
+::selection {
+    background: #111111;
+    color: #DE578B;
+}
+
+.top-ad-section {
+    background: #DE578B;
+}
+
+.ad-text {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.fa-search,
+.fa-shopping-cart,
+.fa-bars {
+    color: #DE578B;
+}
+
+.grey-text {
+    color: #616E68;
+    font-family: FontAwesome, Montserrat-Regular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 18;
+    margin-left: 8px;
+    letter-spacing: 1px
+}
+
+::placeholder {
+    color: #616E68;
+    font-family: FontAwesome, Montserrat-Regular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 18;
+    letter-spacing: 1px
+}
+
+.cursor-hand,
+i {
+    cursor: pointer
+}
+
+.nav-bg {
+    background: inherit
+}
+
+.menu-label {
+    color: #444445;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    opacity: 1;
+}
+
+a.active,
+a:hover {
+    color: #DE578B !important;
+    transition: 1s;
+}
+
+.display-type {
+    display: inline-flex;
+}
+
+button {
+    outline: none !important
+}
+
+@media (max-width:768px) {
+
+    #search-bar,
+    #cart {
+        margin-top: 15px
+    }
+
+    .baner-section {
+        background: #F2AAC6;
+        height: -webkit-fill-available !important;
+    }
+
+    .banner-model {
+        height: 250px !important;
+    }
+
+    .banner-model,
+    .spray-device,
+    .spray-particle {
+        height: auto
+    }
+
+    .white-bg {
+        margin-top: 2% !important;
+        border: none !important;
+        background: transparent !important
+    }
+
+    .spray-particle {
+        display: none
+    }
+
+    .spray-device {
+        float: right;
+        height: 250px !important
+    }
+
+    .quote-para,
+    .banner-model-2,
+    .everywhere-txt,
+    .take-your-txt {
+        display: none
+    }
+
+    .buy-button {
+        text-align: left !important;
+        padding-top: 40% !important
+    }
+
+    .banner-2-img {
+        height: inherit;
+        width: inherit;
+        margin-top: 4%;
+        margin-left: 0 !important
+    }
+    .leaf-left{
+        margin-top: 0;
+        display: none
+    }
+    .leaf-right{
+        margin-top: 0;
+        display: none
+    }
+}
+
+@media (max-width:1214px) and (min-width:940px) {
+    .spray-device {
+        height: 68vh;
+        margin-left: 35%
+    }
+
+    .spray-particle {
+        display: none
+    }
+}
+
+@media (max-width:939px) and (min-width:768px) {
+    .spray-device {
+        height: 68vh;
+        margin-left: 50%
+    }
+
+    .spray-particle {
+        display: none
+    }
+}
+
+.baner-section {
+    background: #F2AAC6;
+    height: 65vh
+}
+
+.banner-model,
+.spray-device,
+.spray-particle {
+    height: -webkit-fill-available
+}
+
+.banner-model-2 {
+    height: -webkit-fill-available;
+    opacity: .5;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    text-align: center
+}
+
+.white-bg {
+    background: white;
+    margin-top: 13%;
+    margin-bottom: 10px;
+    border-top: 3px solid #DE578B;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.take-your-txt {
+    position: absolute;
+    top: 0;
+    font-family: 'Dancing Script', cursive;
+    color: #444445;
+    font-size: 30px;
+    padding-left: 25%;
+    padding-top: 4%;
+}
+
+.everywhere-txt {
+    position: absolute;
+    top: 0;
+    font-family: 'Quicksand', sans-serif;
+    color: #444445;
+    font-size: 33.5px;
+    padding-left: 0;
+    padding-top: 31%;
+}
+
+.quote-para {
+    position: absolute;
+    top: 0;
+    font-family: 'Quicksand', sans-serif;
+    color: #444445;
+    font-size: 11px;
+    padding-left: 0;
+    padding-top: 50%;
+    text-align: -webkit-center;
+}
+.product-para {
+    position: absolute;
+    top: 0;
+    font-family: Montserrat-Regular,AdobeInvisFont,MyriadPro-Regular;
+    font-size: 18px;
+    padding-left: 0;
+    text-align: -webkit-left;
+    color:#888888
+}
+
+.buy-button {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    font-family: 'Quicksand', sans-serif;
+    /* color: #444445; */
+    font-size: 11px;
+    padding-left: 0;
+    padding-top: 75%;
+    text-align: -webkit-center;
+}
+
+.buy-btn-inner-style {
+    background: #C8466F;
+    padding: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    letter-spacing: 1px;
+    border: none
+}
+
+.spray-particle {
+    height: 100px;
+    margin-top: -70%;
+}
+
+.spray-device {
+    height: 68vh;
+}
+
+.why-txt-position {
+    margin-top: -5%;
+    margin-left: 12%;
+    font-size: 55px;
+    font-family: PlayfairDisplay-Regular, AdobeInvisFont, MyriadPro-Regular;
+    color: #333333;
+    letter-spacing: 1px
+}
+.product-header-position{
+    margin-top: -5%;
+    margin-left: 2%;
+    font-size: 55px;
+    font-family: PlayfairDisplay-Regular, AdobeInvisFont, MyriadPro-Regular;
+    color: #333333;
+    letter-spacing: 1px
+}
+
+.banner-2-img {
+    height: inherit;
+    width: inherit;
+    margin-top: 8%;
+    margin-left: 7%
+}
+
+.second-banner-row {
+    border: 1px solid #DE578B
+}
+
+.banner-2-second-half {
+    margin: 25px 25px 25px 25px;
+    padding-left: 10%
+}
+
+.banner-2-header {
+    color: #333333;
+    font-family: PlayfairDisplay-Regular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 30px;
+
+}
+
+ul li {
+    list-style-type: none;
+    font-size: 15px
+}
+
+ul {
+    padding-left: 0;
+    margin-top: 2rem;
+}
+
+.banner-2-second-half ul li::before {
+    content: "\2022";
+    color: #EFC318;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    font-size: 30px
+}
+
+.hat {
+    margin-left: -23%;
+}
+.step-header{
+    font-size: 24px;
+    color: #000000;
+    font-family: Montserrat-Bold,AdobeInvisFont,MyriadPro-Regular;
+}
+.step-content{
+    color: #888888;
+    font-family: Montserrat-Regular,AdobeInvisFont,MyriadPro-Regular;
+    font-size: 18px
+}
+.how-to-img-lhs-margin{
+    margin: 23% 0 0 0 
+}
+.testimonial-text{
+    font-family: PlayfairDisplay-Regular,AdobeInvisFont,MyriadPro-Regular;
+    color: #333333;
+    font-size: 50px
+}
+.star-header-img{
+    margin-top: -20px;
+    margin-right: 15px;
+}
+.bg-pink{
+    background: #F2AAC6
+}
+.showcase-img-250px{
+    width: 350px;
+    height: max-content
+}
+.quote-txt-style{
+    color: #666666;
+    font-family: Montserrat-Regular,AdobeInvisFont,MyriadPro-Regular;
+    font-size: 15px;
+    padding-left: 0
+}
+/* slider indicator style */
+ol.carousel-indicators li.active {
+    background: #FFFFFF;
+    border: 3px solid #C8466F;
+    cursor: pointer
+  }
+  ol.carousel-indicators li:hover{
+      border: 3px solid #111111
+  }
+  ol.carousel-indicators li {
+    background: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    cursor: pointer
+  }
+  .reviewerName{
+      font-family: Montserrat-Regular,PlayfairDisplay-Regular,AdobeInvisFont,MyriadPro-Regular;
+      color: #333333;
+      opacity: 1;
+      font-size: 24px;
+      letter-spacing: 1px
+  }
+  .countryName{
+    font-family: Montserrat-Regular,PlayfairDisplay-Regular,AdobeInvisFont,MyriadPro-Regular;
+    color: #333333;
+    opacity: .7;
+    font-size: 19px;
+    letter-spacing: .5px
+} 
+  .border-left{
+      border-left: 2px solid #DE578B !important
+  }
+  .home-spray-txt{
+      color: #444445;
+      font-family: Montserrat-Bold,AdobeInvisFont,MyriadPro-Regular;
+      font-size: 25px;
+  }
+  .kit-btn-inner-style {
+    background: #C8466F;
+    padding: 1px 1px 1px 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    letter-spacing: 1px;
+    border: none;
+    font-size: 14px
+}
+.now-at-txt{
+    font-family: Montserrat-Regular,Montserrat-Bold,AdobeInvisFont,MyriadPro-Regular;
+    color: #444445;
+    font-size: 24px
+}
+.pink-txt{
+    color: #DE578B;
+    font-family: Montserrat-Regular,Montserrat-Bold,AdobeInvisFont,MyriadPro-Regular;
+    font-size: 26.5px
+}
+.font-dollar{
+    font-size: 22px;
+    margin-left: 1%;
+}
+.starFish-img{
+    width: inherit;
+}
+.bg-light-pink{
+background: #FFE7F0
+}
+.border-right{
+    border-right: 1px solid grey
+}
+.greenLeaf{    
+    margin-left: -15%;
+}
+.ocean-bg{
+    background: url("../../Images/ocean-bg.png") no-repeat center;
+    height: auto;
+    width: 100%;
+}
+.ladyWithGlass{    
+    margin-top: -80px;
+}
+.spring-txt{ 
+ font-family: Montserrat-Bold,AdobeInvisFont,MyriadPro-Regular;
+ color: #222222;
+ font-size: 20px;
+ letter-spacing: 1.3px;
+ margin-bottom: 20px;
+ text-align: center
+}
+.midSeason-txt{
+    font-family: Montserrat-Bold,AdobeInvisFont,MyriadPro-Regular;
+    color: #222222;
+    font-size: 36px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.subscribe-txt{
+    font-family:Montserrat-Regular,Montserrat-Bold,AdobeInvisFont,MyriadPro-Regular;
+    color: #222222;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.newsLetter ::placeholder{
+    color:grey;
+    font-size: 16px;
+    text-align: center
+}
+.newsLetter input{
+    border: 2px solid #C8466F;
+    width: 100%
+}
+.subscribe-btn{
+    padding: 9px;
+    background: #C8466F;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    border: none;
+    width: 100%;
+    font-size: 14px
+}
+.footer-para{
+    color: #777777;
+    font-family: Montserrat-Regular,AdobeInvisFont,MyriadPro-Regular;
+    font-size: 16px
+}
+#social-icon{
+    margin-right: 4%
+}
+.link-header{
+    color: #111111;
+    letter-spacing: 1px;
+    font-size: 19px
+}
+.link-color{
+    color: grey;
+    letter-spacing: 1px;
+    font-size: 16px
+}
+.mail-txt{
+    font-family: Montserrat-Regular,AdobeInvisFont,MyriadPro-Regular;
+    color: #000000;
+    font-size: 12px;
+    margin-left: 15px;
+}
+.leaf-left{
+    margin-top: 130px
+}
+.leaf-right{
+    margin-top: 130px
+}
+/* .copyright{
+    color: #555555;
+    font-family: Montserrat-Regular,AdobeInvisFont,MyriadPro-Regular;
+    font-size: 16px
+} */
